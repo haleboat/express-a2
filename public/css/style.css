@@ -67,8 +67,14 @@ figure {
 }
 
 figure a {
+  padding: 10px;
   text-decoration: none;
   color: black;
+}
+
+figure a:hover {
+  background: rgb(202, 202, 202);
+  border-radius: 5px;
 }
 
 footer {
